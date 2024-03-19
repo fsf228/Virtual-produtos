@@ -1,0 +1,400 @@
+.container {
+            display: flex;
+            justify-content: space-between;
+            padding: 5px;
+			background: #B1B1B1;
+ color: #FFF;
+ text-decoration: none;
+ font-weight: bold;
+ border-width: 4px;
+ border-style: solid;
+ border-top-color: #DFDFDF;
+ border-right-color: #666;
+ border-bottom-color: #333;
+ border-left-color: #858585;
+ border-radius: 20px 20px 20px 20px;
+        }
+
+.L {
+      width: 99%; /* Defina a largura desejada para as colunas */
+           
+font-size: 30px; /*tamanho da letra*/ 
+text-align : center;				
+			 border-radius: 20px 20px 20px 20px;			 
+			background: #B1B1B1;
+ color: #FFF;
+ text-decoration: none;
+ font-weight: bold;
+ border-width: 4px;
+ border-style: solid;
+ border-top-color: #DFDFDF;
+ border-right-color: #666;
+ border-bottom-color: #333;
+ border-left-color: #858585; 
+}
+
+.L1 {
+      width: 48%; /* Defina a largura desejada para as colunas */
+            background-color: #0000CD; /* Cor de exemplo */           
+            padding: 20px;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+			color: #00F;
+font-size: 15px; /*tamanho da letra*/ 
+text-align : center;				
+			 border-radius: 20px 20px 20px 20px;			 
+			background: #B1B1B1;
+ color: #000000;
+ text-decoration: none;
+ border-width: 4px;
+ border-style: solid;
+ border-top-color: #DFDFDF;
+ border-right-color: #666;
+ border-bottom-color: #333;
+ border-left-color: #858585; 
+}
+		 
+.L2 {
+      width: 48%; /* Defina a largura desejada para as colunas */
+            background-color: #0000CD; /* Cor de exemplo */           
+            padding: 20px;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+			color: #00F;
+font-size: 15px; /*tamanho da letra*/ 
+text-align : center;				
+			 border-radius: 20px 20px 20px 20px;			 
+			background: #B1B1B1;
+			color: #000000;
+ text-decoration: none;
+ border-width: 4px;
+ border-style: solid;
+ border-top-color: #DFDFDF;
+ border-right-color: #666;
+ border-bottom-color: #333;
+ border-left-color: #858585; 
+}
+
+.L3 {
+      width: 48%; /* Defina a largura desejada para as colunas */
+            background-color: #0000CD; /* Cor de exemplo */           
+            padding: 20px;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+			color: #00F;
+font-size: 15px; /*tamanho da letra*/ 
+text-align : center;				
+			 border-radius: 20px 20px 20px 20px;			 
+			background: #B1B1B1;
+ color: #000000;
+ text-decoration: none;
+ border-width: 4px;
+ border-style: solid;
+ border-top-color: #DFDFDF;
+ border-right-color: #666;
+ border-bottom-color: #333;
+ border-left-color: #858585; 
+}
+		 
+.L4 {
+      width: 48%; /* Defina a largura desejada para as colunas */
+            background-color: #0000CD; /* Cor de exemplo */           
+            padding: 20px;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+			color: #00F;
+font-size: 15px; /*tamanho da letra*/ 
+text-align : center;				
+			 border-radius: 20px 20px 20px 20px;			 
+			background: #B1B1B1;
+			color: #000000;
+ text-decoration: none;
+ border-width: 4px;
+ border-style: solid;
+ border-top-color: #DFDFDF;
+ border-right-color: #666;
+ border-bottom-color: #333;
+ border-left-color: #858585; 
+}
+.L5 {
+      width: 48%; /* Defina a largura desejada para as colunas */
+            background-color: #0000CD; /* Cor de exemplo */           
+            padding: 20px;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+			color: #00F;
+font-size: 15px; /*tamanho da letra*/ 
+text-align : center;				
+			 border-radius: 20px 20px 20px 20px;			 
+			background: #B1B1B1;
+ color: #000000;
+ text-decoration: none;
+ border-width: 4px;
+ border-style: solid;
+ border-top-color: #DFDFDF;
+ border-right-color: #666;
+ border-bottom-color: #333;
+ border-left-color: #858585; 
+}
+		 
+.L6 {
+      width: 48%; /* Defina a largura desejada para as colunas */
+            background-color: #0000CD; /* Cor de exemplo */           
+            padding: 20px;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+			color: #00F;
+font-size: 15px; /*tamanho da letra*/ 
+text-align : center;				
+			 border-radius: 20px 20px 20px 20px;			 
+			background: #B1B1B1;
+			color: #000000;
+ text-decoration: none;
+ border-width: 4px;
+ border-style: solid;
+ border-top-color: #DFDFDF;
+ border-right-color: #666;
+ border-bottom-color: #333;
+ border-left-color: #858585; 
+}
+		 
+.L7 {
+      width: 48%; /* Defina a largura desejada para as colunas */
+            background-color: #0000CD; /* Cor de exemplo */           
+            padding: 20px;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+			color: #00F;
+font-size: 15px; /*tamanho da letra*/ 
+text-align : center;				
+			 border-radius: 20px 20px 20px 20px;			 
+			background: #B1B1B1;
+			color: #000000;
+ text-decoration: none;
+ border-width: 4px;
+ border-style: solid;
+ border-top-color: #DFDFDF;
+ border-right-color: #666;
+ border-bottom-color: #333;
+ border-left-color: #858585; 
+}
+		 
+.L8 {
+      width: 48%; /* Defina a largura desejada para as colunas */
+            background-color: #0000CD; /* Cor de exemplo */           
+            padding: 20px;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+			color: #00F;
+font-size: 15px; /*tamanho da letra*/ 
+text-align : center;				
+			 border-radius: 20px 20px 20px 20px;			 
+			background: #B1B1B1;
+			color: #000000;
+ text-decoration: none;
+ border-width: 4px;
+ border-style: solid;
+ border-top-color: #DFDFDF;
+ border-right-color: #666;
+ border-bottom-color: #333;
+ border-left-color: #858585; 
+}
+
+.L9 {
+      width: 48%; /* Defina a largura desejada para as colunas */
+            background-color: #0000CD; /* Cor de exemplo */           
+            padding: 20px;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+			color: #00F;
+font-size: 15px; /*tamanho da letra*/ 
+text-align : center;				
+			 border-radius: 20px 20px 20px 20px;			 
+			background: #B1B1B1;
+			color: #000000;
+ text-decoration: none;
+ border-width: 4px;
+ border-style: solid;
+ border-top-color: #DFDFDF;
+ border-right-color: #666;
+ border-bottom-color: #333;
+ border-left-color: #858585; 
+}
+.L10 {
+      width: 48%; /* Defina a largura desejada para as colunas */
+            background-color: #0000CD; /* Cor de exemplo */           
+            padding: 20px;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+			color: #00F;
+font-size: 15px; /*tamanho da letra*/ 
+text-align : center;				
+			 border-radius: 20px 20px 20px 20px;			 
+			background: #B1B1B1;
+			color: #000000;
+ text-decoration: none;
+ border-width: 4px;
+ border-style: solid;
+ border-top-color: #DFDFDF;
+ border-right-color: #666;
+ border-bottom-color: #333;
+ border-left-color: #858585; 
+}
+.rodape{
+    background-color: #B1B1B1;
+    position: absolute;
+    bottom:0%;
+    width: 99%;
+	text-align : center;
+	border-radius: 20px 20px 20px 20px;	
+}
+
+.aula1{
+    background: #B1B1B1;
+    bottom:0%;
+    width: 100%;
+	font-size: 25px; 
+	color: #0000FF;
+	text-align : center;
+	border-radius: 20px 20px 20px 20px;	
+}
+
+.aula2{
+    background: #B1B1B1;
+    bottom:0%;
+    width: 100%;
+	font-size: 25px; 
+	color: #0000FF;
+	text-align : center;
+	border-radius: 20px 20px 20px 20px;	
+}
+
+.aula3{
+    background: #B1B1B1;
+    bottom:0%;
+    width: 100%;
+	font-size: 25px; 
+	color: #0000FF;
+	text-align : center;
+	border-radius: 20px 20px 20px 20px;	
+}
+
+.aula4{
+    background: #B1B1B1;
+    bottom:0%;
+    width: 100%;
+	font-size: 25px; 
+	color: #0000FF;
+	text-align : center;
+	border-radius: 20px 20px 20px 20px;	
+}
+.aula5{
+    background: #B1B1B1;
+    bottom:0%;
+    width: 100%;
+	font-size: 25px; 
+	color: #0000FF;
+	text-align : center;
+	border-radius: 20px 20px 20px 20px;	
+}
+
+.aula6{
+    background: #B1B1B1;
+    bottom:0%;
+    width: 100%;
+	font-size: 25px; 
+	color: #0000FF;
+	text-align : center;
+	border-radius: 20px 20px 20px 20px;	
+}
+
+.index{
+    background: #B1B1B1;
+	width: 100%;
+	height: 30%;
+    bottom:0%;    
+	font-size: 25px; 
+	color: #0000FF;
+	text-align : center;
+	border-radius: 20px 20px 20px 20px;	
+}
+
+.index1{
+    background: #FFFFFF;
+	width: 15%;
+	height: 10%;
+    bottom:0%;    
+	font-size: 25px; 
+	color: #0000FF;
+	text-align : center;
+	border-radius: 20px 20px 20px 20px;	
+}
+.index2{
+    background: #808080;
+    justify-content: center;
+	align-items: center;
+	width: 100%;
+	align-items: center;
+	height: 10%;
+    bottom:10%;    
+	font-size: 45px; 
+	color: #FFFFFF;
+	border-radius: 10px 10px 10px 10px;	
+}
+.index3{
+    background: #4F4F4F;
+justify-content: center;
+	width: 100%;
+	height: 10%;
+    bottom:10%;    
+	font-size: 25px; 
+	color: #FFFFFF;
+	align-items: center;
+	border-radius: 10px 10px 10px 10px;	
+}
+.rodape
+  {
+   width: 100%; /* Defina a largura desejada para as colunas */
+            background-color: #0000CD; /* Cor de exemplo */           
+            padding: 10px;
+            box-sizing: border-box;
+            margin-bottom: 0px;
+			color: #00F;
+font-size: 15px; /*tamanho da letra*/ 
+text-align : center;				
+			 border-radius: 20px 20px 20px 20px;			 
+			background: #B1B1B1;
+			color: #000000;
+ text-decoration: none;
+ border-width: 4px;
+ border-style: solid;
+ border-top-color: #DFDFDF;
+ border-right-color: #666;
+ border-bottom-color: #333;
+ border-left-color: #858585; 
+}
+.index4{
+    background: #4F4F4F;
+justify-content: center;
+	width: 100%;
+	height: 10%;
+    bottom:10%;    
+	font-size: 250%; 
+	color: #FFFFFF;
+	align-items: center;
+	border-radius: 10px 10px 10px 10px;	
+}
+.index5{
+width: 100%; /* Defina a largura desejada para as colunas */
+            background-color: #000FFF; /* Cor de exemplo */
+            color: #fff;
+            padding: 20px;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+text-align : center;			
+			font-size: 30px; /*tamanho da letra*/
+			 border-radius: 20px 20px 20px 20px;
+        }
+
+
+

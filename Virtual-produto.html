@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout de Duas Colunas</title>
+    <style>
+        .body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+.coluna {
+            width: 100%; /* Defina a largura desejada para as colunas */
+            background-color: #0000FF; /* Cor de exemplo */
+            color: #fff;
+            padding: 20px;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+			font-size: 60px; /*tamanho da letra*/
+			 display: flex;
+text-align : center;
+			 border-radius: 20px 20px 20px 20px;			
+        }
+
+        .coluna1 {
+            width: 48%; /* Defina a largura desejada para as colunas */
+            background-color: #00BFFF; /* Cor de exemplo */
+            color: #fff;
+            padding: 30px;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+text-align : center;
+			font-size: 60px; /*tamanho da letra*/ 
+ 		 			 border-radius: 100px 100px 100px 100px;
+        }
+		.coluna2 {
+            width: 48%; /* Defina a largura desejada para as colunas */
+            background-color: #00BFFF; /* Cor de exemplo */
+            color: #fff;
+            padding: 20px;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+text-align : center;
+			 border-radius: 100px 100px 100px 100px;
+        }
+		.coluna3 {
+            width: 48%; /* Defina a largura desejada para as colunas */
+            background-color: #000000; /* Cor de exemplo */
+            color: #fff;
+            padding: 20px;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+text-align : center;			
+			font-size: 40px; /*tamanho da letra*/
+			 border-radius: 100px 100px 10px 10px;
+        }
+		.coluna4 {
+            width: 48%; /* Defina a largura desejada para as colunas */
+            background-color: #000000; /* Cor de exemplo */
+            color: #fff;
+            padding: 30px;
+            box-sizing: border-box;
+text-align : center;
+            margin-bottom: 20px;
+			 border-radius: 100px 100px 10px 10px;
+        }
+		.coluna5 {
+            width: 48%; /* Defina a largura desejada para as colunas */
+            background-color: #000FFF; /* Cor de exemplo */
+            color: #fff;
+            padding: 20px;
+            box-sizing: border-box;
+            margin-bottom: 20px;			
+text-align : center;
+font-size: 35px; /*tamanho da letra*/ 			
+			  border-radius: 10px 10px 100px 100px;
+        }
+		.coluna6 {
+            width: 48%; /* Defina a largura desejada para as colunas */
+            background-color: #000FFF; /* Cor de exemplo */
+            color: #fff;
+            padding: 20px;
+            box-sizing: border-box;			
+text-align : center;
+            margin-bottom: 20px;			
+			 border-radius: 10px 10px 100px 100px;
+        }
+		.coluna7 {
+            width: 48%; /* Defina a largura desejada para as colunas */
+            background-color: #1E90FF; /* Cor de exemplo */
+            color: #000000;
+            padding: 30px;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+			text-align : center;
+font-size: 40px; /*tamanho da letra*/ 			
+			 border-radius: 100px 100px 10px 10px;
+        }
+		.coluna8
+		{
+            width: 48%; /* Defina a largura desejada para as colunas */
+            background-color: #1E90FF; /* Cor de exemplo */
+            color: #000000;
+            padding: 30px;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+			text-align : center;
+font-size: 20px; /*tamanho da letra*/ 			
+			 border-radius: 100px 100px 10px 10px;
+        }.coluna9 
+		{
+            width: 48%; /* Defina a largura desejada para as colunas */
+            background-color: #006400; /* Cor de exemplo */
+            color: #fff;
+            padding: 20px;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+text-align : center;
+font-size: 50px; /*tamanho da letra*/ 				
+			 border-radius: 10px 10px 100px 100px;
+        }
+		
+		.coluna10
+		{
+            width: 48%; /* Defina a largura desejada para as colunas */
+            background-color: #006400; /* Cor de exemplo */
+            color: #fff;
+            padding: 30px;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+text-align : center;
+font-size: 20px; /*tamanho da letra*/ 			
+			 border-radius: 10px 10px 100px 100px;
+        }
+		.coluna11 
+		{
+            width: 100%; /* Defina a largura desejada para as colunas */
+            background-color: #0000CD; /* Cor de exemplo */           
+            padding: 20px;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+			color: #00F;
+font-size: 40px; /*tamanho da letra*/ 
+text-align : center;				
+			 border-radius: 50px 50px 50px 50px;			 
+			background: #B1B1B1;
+ color: #FFF;
+ text-decoration: none;
+ font-weight: bold;
+ border-width: 4px;
+ border-style: solid;
+ border-top-color: #DFDFDF;
+ border-right-color: #666;
+ border-bottom-color: #333;
+ border-left-color: #858585;  
+			 
+			 
+        }
+		
+		.coluna12 
+		{
+            width: 100%; /* Defina a largura desejada para as colunas */
+            background-color: #FFF0FF; /* Cor de exemplo */
+            color: #fff;			
+font-size: 15px; /*tamanho da letra*/ 
+            padding: 20px;
+            box-sizing: border-box;
+            margin-bottom: 20px;			
+			 border-radius: 20px 20px 20px 20px;
+			 background: #B1B1B1;
+ color: #FFF;
+ text-decoration: none;
+ font-weight: bold;
+ border-width: 4px;
+ border-style: solid;
+ border-top-color: #DFDFDF;
+ border-right-color: #666;
+ border-bottom-color: #333;
+ border-left-color: #858585; 
+        }
+		
+    </style>
+	<link rel="stylesheet" href="style.css"> 
+</head>	
+<body>
+        
+<div class="index5">
+		Olá Mundo!<br><!--<img src="C:\Users\ADM\Desktop\Lojas_online\Imagens/NacerdoSolEmLagoa4.png" width="100%"/><br>-->
+Seja muito Bem-vindo à esta página; o meu o seu o nosso Mini Shopping On-line.
+ </div>
+  <div class="container">
+  <div class="index1"><a href="index.html">INÍCIO</a></div> <div class="index1"><a href="meliuz.html"> MELIUZ </a></div> <div class="index1"><a href="#">Início</a></div> <div class="index1"><a href="#">Início</a></div> <div class="index1"><a href="#">Início</a></div><div class="index1"><a href="whatsapp.html">WHATSAPP</a></div></div>
+  <br>
+    <div class="container">
+        <div class="coluna1">
+          <a href="https://www.magazinevoce.com.br/magazineb10/">Magazineb10</a>
+		  <br>
+			Visite nossa loja! 
+			
+        </div>
+        <div class="coluna2">
+            <h2><a href="https://www.magazinevoce.com.br/magazineb10/"> Magalu </a></h2>
+            <p><strong>O Magazine Luiza,</strong> carinhosamente conhecido como <strong>Magalu,</strong> é uma renomada empresa brasileira que combina inovação e varejo em seu núcleo. <br><br><strong>Fundada em 1957</strong> na cidade de Franca, a empresa evoluiu para se tornar um gigante do varejo multicanal, oferecendo uma ampla gama de produtos, desde móveis e eletrônicos até eletrodomésticos e muito mais. você pode conhecer aqui, o:<br><br> <a href="https://www.magazinevoce.com.br/magazineb10/">Magazine Luiza.</a></p>
+        </div>
+    </div>
+	 <div class="container">
+        <div class="coluna3"><br>
+        <a href="https://www.cursos24horas.com.br/parceiro.asp?cod=promocao20537">Cursos 24 horas </a><br>
+            			Em que área, você deseja se expecializer este ano? Curso 24oras é a solução. 
+        </div>
+        <div class="coluna4">  <br>         
+        <a href="https://www.cursos24horas.com.br/parceiro.asp?cod=promocao20537">Cursos 24 horas </a><br><br>
+            O Curso 24 Horas é uma plataforma online que oferece uma variedade de cursos em diversas áreas.<br> Com opções que abrangem desde ferramentas de software, como o Curso de Word, até cursos profissionalizantes presenciais, como os disponíveis no Centro Olímpico e Paralímpico do Gama.<br> A plataforma permite que os alunos estudem no seu próprio ritmo, sem prazos mínimos ou máximos para a conclusão dos cursos.
+        </div>
+    </div>
+	 <div class="container">
+        <div class="coluna5">
+            <h2><a href="http://www.sephora.com.br?idparceria=23131&utm_source=rise&a_aid=fsf228">SEPHORA</a></h2>
+            <p>A marca não apenas vende produtos de <b>beleza</b>, mas cria experiências únicas para seus clientes</p>
+        </div>
+		
+        <div class="coluna6">
+            <h2><a href="http://www.sephora.com.br?idparceria=23131&utm_source=rise&a_aid=fsf228">SEPHORA = BELEZA E BEM ESTAR</a></h2>
+            <p>A <b>Sephora</b> é mais do que uma marca de beleza; é um destino que transcende os padrões convencionais. Oferecendo uma ampla gama de produtos de alta qualidade, desde maquiagem até cuidados com a pele e cabelo, a Sephora é uma referência global no universo da beleza moderna.
+<br><br>
+Com uma abordagem inovadora, a Sephora traz as últimas tendências e os produtos mais exclusivos, sempre comprometida em celebrar a diversidade e individualidade. A marca não apenas vende produtos de beleza, mas cria experiências únicas para seus clientes, proporcionando serviços de maquiagem personalizada para ocasiões especiais.
+<br><br>
+Fundada na crença de que a beleza é para todos os gostos e bolsos, a Sephora é um espaço inclusivo que valoriza a autenticidade.</p>
+        </div>
+    </div>
+	<div class="container">
+        <div class="coluna7">
+            <a href="https://www.meliuz.com.br/i/ref_5c9cce15?ref_source=2"><h2> M&nbsp;E&nbsp;L&nbsp;I&nbsp;U&nbsp;Z </h2></a>
+			<p>O Méliuz é uma plataforma que oferece serviços de cashback, clik no link e conheça!</p>
+        </div>
+        <div class="coluna8"><a href="https://www.meliuz.com.br/i/ref_5c9cce15?ref_source=2"><h2> M&nbsp;E&nbsp;L&nbsp;I&nbsp;U&nbsp;Z</h2> </a>
+		<p>O <b>Méliuz</b> é uma plataforma que oferece serviços de <b>cashback,</b> onde os usuários podem receber parte do valor gasto em compras de volta.<br><br> <b>Fundada em 2011,</b> a empresa se destaca por seu programa de recompensas, permitindo que os clientes economizem dinheiro ao realizar compras online em diversas lojas parceiras. Além do <b>cashback, o Méliuz</b> também disponibiliza <b>cupons de desconto</b> para os usuários aproveitarem ainda mais suas compras.<br><br> Com uma ampla gama de parceiros, que incluem grandes varejistas, o <b>Méliuz</b> se tornou uma ferramenta popular para quem <b>busca economizar</b> e ganhar benefícios em suas compras do dia a dia. O Méliuz também oferece um cartão de crédito com cashback, ampliando as opções para os usuários maximizarem seus ganhos.</p>
+        </div>
+    </div>
+	<div class="coluna11">
+		<a href="https://www.segurospromo.com.br/?utm_medium=afiliado&utm_source=site-blog&pcrid=10501"> Viage com mais tranquilidade com a garantia do: seguros promo </a>
+	</div>
+	<div class="container">
+        <div class="coluna9">            
+<a href="https://www.segurospromo.com.br/?utm_medium=afiliado&utm_source=site-blog&pcrid=10501"> <b>Seguro viagem </b></a>
+            <p>O que é e para que serve o seguro de viagem?<br><a href="https://www.segurospromo.com.br/?utm_medium=afiliado&utm_source=site-blog&pcrid=10501"> Confira aqui.</a></p>
+        </div>
+			
+        <div class="coluna10">
+            <a href="https://www.segurospromo.com.br/?utm_medium=afiliado&utm_source=site-blog&pcrid=10501"> Seguro viagem </a>
+            <p>O seguro viagem é o serviço que vai certificar a segurança e tranquilidade da sua viagem. Ele garante ao viajante o amparo necessário em qualquer situação de emergência, oferecendo assistência e suporte financeiro em caso de eventualidades.
+<br><br>
+Assim, dentro do valor das coberturas, o segurado estará acobertado caso aconteça: acidentes, extravio de bagagem, roubos, enfermidades e outros importunos que, sem as coberturas do seguro viagem, podem estourar todo o orçamento destinado à hospedagem, alimentação e diversão; <a href="https://www.segurospromo.com.br/?utm_medium=afiliado&utm_source=site-blog&pcrid=10501"><b>viaje com mais tranquilidade e comodidade.</b> </a>
+</p>
+        </div>
+    </div>	
+	<div class="container">
+        <div class="coluna11">
+		<a href="https://www.passagenspromo.com.br/"> Passagens Aéreas promocionais </a>
+	</div>
+		</div><p></p><br>
+		<div class="container">	        		
+		<br><div class="index1">
+          <a href="https://www.magazinevoce.com.br/magazineb10/busca/ar-e-ventilacao/">VENTILAÇÃO</a> 
+		  <br><br>
+		  <a href="https://www.magazinevoce.com.br/magazineb10/busca/cama-mesa-e-banho/">CAMA, MESA</a> 
+		  <br><br>
+		  <a href="https://www.magazinevoce.com.br/magazineb10/busca/tvs/"> TVS e VÍDEOS </a> 
+		  </div>		  
+		  <div class="index1">	
+		  <a href="https://www.magazinevoce.com.br/magazineb10/busca/fogaos/" target="_blank">FOGÕES A GÁS</a> 
+		  <br><br>
+		  <a href="https://www.magazinevoce.com.br/magazineb10/busca/suplemento-alimentar/">S.ALIMENTAR</a> 
+		  <br><br>
+		<a href="https://www.magazinevoce.com.br/magazineb10/busca/brinquedos/"> BRINQUEIDOS</a>  
+		 </div>
+		   <div class="index1">	
+		  <a href="https://www.magazinevoce.com.br/magazineb10/busca/maquinas-de-costura/">MÁQ. COSTURA</a>  
+		  <br><br>
+<a href="https://www.magazinevoce.com.br/magazineb10/busca/eletrodomesticos/" target="_blank">ELETRODOMESTICOS</a>  
+<br><br>
+<a href="https://www.magazinevoce.com.br/magazineb10/busca/smartphones/" target="_blank">SMARTPHONE </a>  
+</div>
+<div class="index1">	
+<a href="https://www.magazinevoce.com.br/magazineb10/busca/purificadores/" target="_blank"> PURIFICADORES </a> 
+<br><br>
+<a href="https://www.magazinevoce.com.br/magazineb10/busca/camaras+de+seguranca+wi+fi/" target="_blank"> CAMARAS </a>
+<br><br>  
+<a href="https://www.magazinevoce.com.br/magazineb10/busca/tablets/" target="_blank"> TABLETES </a> 
+</div>
+<div class="index1">	
+<a href="https://www.magazinevoce.com.br/magazineb10/busca/camisetas+masculinas+gola+polo/" target="_blank">CAMIZETAS</a>
+<br><br>
+<a href="https://www.magazinevoce.com.br/magazineb10/busca/filmadoras/" target="_blank"> FILMADORAS </a>
+<br><br>
+<a href="https://www.magazinevoce.com.br/magazineb10/busca/pneus+de+carros/" target="_blank"> PN. DE CARROS</a>
+</div>
+<div class="index1">	
+<a href="https://www.magazinevoce.com.br/magazineb10/busca/furadeira+e+arafuradeiras/" target="_blank">PARAFURDEIRA</a><br><br>  
+<a href="https://www.magazinevoce.com.br/magazineb10/busca/purificadores/" target="_blank">PURIFICADORES</a>
+<br><br>
+<a href="https://www.magazinevoce.com.br/magazineb10/busca/vestes/" target="_blank">VESTUARIA</a>
+</div>
+</div>
+</body>
+</html>
